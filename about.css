@@ -1,0 +1,26 @@
+#imgs img{
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+    padding: 30px 0px;
+
+}
+#imgs h1{
+    text-align: center;
+    color: #AD8B73; 
+}
+.body{
+    background-image: url(../assets/images/sa.jpg);
+    opacity: 0.2;
+}
+.about-section h1{
+    padding: 50px;
+    text-align: center;;
+    color: #333;
+  
+}
+#about-banner{
+    padding:72px 20px;
+}
+  
+        
