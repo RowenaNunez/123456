@@ -1,3 +1,8 @@
-.footer{
-    background-color:#99BC85
+#footer{
+    background-color: #99BC85;
+    padding: 10px 0;
+    
+}
+#footer p{
+    text-align: center;
 }

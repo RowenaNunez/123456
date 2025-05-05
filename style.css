@@ -1,3 +1,7 @@
+@import "order.css";
+@import "thankyou.css";
+@import "contact.css";
+@import"button.css";
 @import "footer.css";
 @import "about.css";
 @import "about.css";
@@ -44,7 +48,7 @@ body{
     background-color: #E4EFE7;
 }
 #footer-container{
-    background-color:#99BC8
+    background-color:#99BC85;
     max-width: 1280px;
     margin: auto ;
 }

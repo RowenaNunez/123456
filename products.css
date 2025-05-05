@@ -1,0 +1,21 @@
+.products-cards{
+    width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 72px 20px;    
+    background-color: #f9f9f9;
+    box-shadow: 10px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    gap: 20px;
+      justify-content: center;
+
+}
+@media only screen and (max-width: 768px){
+    
+    .column-cards{
+        flex-direction: column;
+        width: 100%;
+    }
+}

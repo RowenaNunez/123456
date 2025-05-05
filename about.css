@@ -1,26 +1,28 @@
-#imgs img{
-    width: 50%;
-    height: 50%;
-    border-radius: 20px;
-    padding: 30px 0px;
 
-}
-#imgs h1{
-    text-align: center;
-    color: #AD8B73; 
-}
-.body{
-    background-image: url(../assets/images/sa.jpg);
-    opacity: 0.2;
-}
+
 .about-section h1{
+    margin: auto;
     padding: 50px;
-    text-align: center;;
+    text-align: center;
     color: #333;
   
 }
-#about-banner{
-    padding:72px 20px;
-}
-  
-        
+
+@media only screen and (max-width: 480px) {
+   
+
+    .about-section h1 {
+      font-size: 20px;
+      padding: 15px;
+    }
+
+    #imgs h1 {
+      font-size: 50px;
+    }
+
+    #about-banner {
+      padding: 15px;
+    
+    }
+    
+  }
