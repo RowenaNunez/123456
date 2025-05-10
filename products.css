@@ -10,12 +10,21 @@
     text-align: center;
     gap: 20px;
       justify-content: center;
+      flex-direction: column;
 
+}
+#products-banner h1{
+ 
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
 }
 @media only screen and (max-width: 768px){
     
     .column-cards{
+      display: flex;
         flex-direction: column;
         width: 100%;
     }
+    
 }

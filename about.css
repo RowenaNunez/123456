@@ -1,28 +1,37 @@
 
-
-.about-section h1{
-    margin: auto;
-    padding: 50px;
+.about h1{
+  margin: auto;
+    margin-top:50px;
+    text-align: center;
+    color: #333;
+  
+  
+}
+.about h2{
+margin: auto;
+    margin-top:50px;
     text-align: center;
     color: #333;
   
 }
+.about p{
+  margin: auto;
+    margin-top:50px;
+    text-align: center;
+    color: #333;
+  font-size: 50px;
+ margin-bottom: 100px;
+ margin-top: 100px;
+ font-family: Arial, Helvetica, sans-serif
+}
+
 
 @media only screen and (max-width: 480px) {
    
-
-    .about-section h1 {
-      font-size: 20px;
-      padding: 15px;
-    }
-
-    #imgs h1 {
-      font-size: 50px;
-    }
-
-    #about-banner {
-      padding: 15px;
+.about p{
+  font-size: 30px;
+}
     
-    }
+
     
   }
