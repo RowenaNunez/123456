@@ -1,3 +1,4 @@
+@import "review.css";
 @import "product.css";
 @import "order.css";
 @import "thankyou.css";
@@ -5,7 +6,7 @@
 @import"button.css";
 @import "footer.css";
 @import "about.css";
-
+@import "product.css";
 @import"card.css";
 @import "navbar.css";
 @import"hero-banner.css";
@@ -30,6 +31,13 @@ html, body{
 body{
     background-color: #E4EFE7; 
 }
+.products-section h1{
+  text-align: center;
+  margin-left: 100px;
+  margin: 20px 0;
+  font-size: 2em;
+}
+
 
 
  /*   .hero-image img{
